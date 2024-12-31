@@ -1,3 +1,4 @@
+func Partition([]int, low, high int) int 
 func Partition(arr []int, low, high int) int {
 
 	pivot := arr[high]
@@ -17,6 +18,7 @@ func Partition(arr []int, low, high int) int {
 	return i + 1
 }
 
+func Quick([]int, low, high int)
 func Quick(arr []int, low, high int) {
 	if low < high {
 		p := Partition(arr, low, high)
